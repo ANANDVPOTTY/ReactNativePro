@@ -34,7 +34,7 @@ function GoalInput(props) {
             style={styles.gradientContainer}
           >
             <Image source={goalImg} style={styles.image} />
-
+            {/*  */}
             <TextInput
               style={styles.textInput}
               placeholder="Your Goals"
