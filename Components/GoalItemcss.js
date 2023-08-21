@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
   },
 
   itemView: {
-    backgroundColor: "white",
+    backgroundColor: "#666666",
     borderTopLeftRadius: 15,
     borderTopRightRadius: 0,
     borderBottomLeftRadius: 0,
@@ -15,7 +15,7 @@ export const styles = StyleSheet.create({
 
   goalText: {
     padding: 8,
-    color: "black",
+    color: "white",
     padding: 15,
   },
 });

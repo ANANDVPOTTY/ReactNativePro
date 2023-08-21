@@ -30,7 +30,7 @@ function GoalInput(props) {
       <Modal visible={props.visible} animationType="fade" transparent={true}>
         <View style={styles.inputContainer}>
           <LinearGradient
-            colors={["#2C3E50", "#4CA1AF"]}
+            colors={["#3a4750", "#303841"]}
             style={styles.gradientContainer}
           >
             <Image source={goalImg} style={styles.image} />
@@ -46,7 +46,7 @@ function GoalInput(props) {
                 <Button
                   title="Add Goal"
                   onPress={addGoalHandler}
-                  color="#5F9EA0"
+                  color="black"
                 />
               </View>
 
@@ -54,7 +54,7 @@ function GoalInput(props) {
                 <Button
                   title="Cancel"
                   onPress={props.onCancel}
-                  color="#483D8B"
+                  color="#be3144"
                 />
               </View>
             </View>
